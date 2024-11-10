@@ -1,3 +1,5 @@
+![Logo](Logo_DOITS.svg)
+
 # Python TODO List using Markdown Files
 
 ## Requirements

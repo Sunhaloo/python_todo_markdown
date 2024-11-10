@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1500"
+   height="600"
+   viewBox="0 0 1500 600"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="Logo DOITS.svg"
+   inkscape:export-filename="../../Downloads/Logo DOITS_dark.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="956.71547"
+     inkscape:cy="154.14928"
+     inkscape:window-width="1902"
+     inkscape:window-height="1036"
+     inkscape:window-x="7"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g21" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect21"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="C,0,0,1,0,0,0,1 @ C,0,0,1,0,0,0,1 @ C,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="false"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect20"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect19"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="White Background"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="Background"
+       style="fill:#ffffff">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#f9f9f9;stroke-width:15.3488;stroke-dasharray:none"
+         id="rect12"
+         width="1484.6361"
+         height="586.55847"
+         x="8.6831665"
+         y="6.7108502"
+         inkscape:label="background" />
+    </g>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:18.8976;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3"
+       width="357.47162"
+       height="366.68988"
+       x="151.64525"
+       y="98.586411"
+       ry="52.325901"
+       inkscape:label="rectangular check box" />
+    <text
+       xml:space="preserve"
+       style="font-size:286.014px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:1.43008"
+       x="555.4646"
+       y="391.20071"
+       id="text4"
+       transform="scale(1.0048514,0.99517203)"
+       inkscape:label="text of logo"><tspan
+         id="tspan4"
+         x="555.4646"
+         y="391.20071"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:286.014px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font';stroke-width:1.43008">DOITS</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2f8800;stroke-width:18.8976;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 119.50104,325.26912 c 0,0 92.02694,178.78893 161.92745,102.53049 C 334.96321,369.39554 576.99913,61.518291 576.99913,61.518291"
+       id="path19"
+       sodipodi:nodetypes="csc"
+       inkscape:label="main checkmark" />
+  </g>
+  <g
+     inkscape:label="White Background copy"
+     inkscape:groupmode="layer"
+     id="g22"
+     style="display:inline">
+    <g
+       inkscape:groupmode="layer"
+       id="g21"
+       inkscape:label="Background"
+       style="fill:#000000">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
+         id="rect21"
+         width="1499.993"
+         height="599.99219"
+         x="0.0025726408"
+         y="0.007580936"
+         inkscape:label="background" />
+    </g>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:18.8976378;stroke-dasharray:none;stroke-opacity:1"
+       id="rect22"
+       width="357.47162"
+       height="366.68988"
+       x="151.64525"
+       y="98.586411"
+       ry="52.325901"
+       inkscape:label="rectangular check box" />
+    <text
+       xml:space="preserve"
+       style="font-size:286.014px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f9f9f9;stroke-width:1.43008"
+       x="555.4646"
+       y="391.20071"
+       id="text22"
+       transform="scale(1.0048514,0.99517203)"
+       inkscape:label="text of logo"><tspan
+         id="tspan22"
+         x="555.4646"
+         y="391.20071"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:286.014px;font-family:'JetBrainsMono Nerd Font';-inkscape-font-specification:'JetBrainsMono Nerd Font';stroke-width:1.43008;fill:#f9f9f9">DOITS</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#2f8800;stroke-width:18.8976;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 119.50104,325.26912 c 0,0 92.02694,178.78893 161.92745,102.53049 C 334.96321,369.39554 576.99913,61.518291 576.99913,61.518291"
+       id="path22"
+       sodipodi:nodetypes="csc"
+       inkscape:label="main checkmark" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Main Layer 2" />
+</svg>
