@@ -104,7 +104,7 @@ Let me explain *me*, *myself* and *I* the line of code that actually checks for 
 return (len(lines_in_file) > 0) and (lines_in_file[0].startswith("#"))
 ```
 
-Well, remember that we converted all the lines in the file into a *list*. Hence, we can say that if the length of that list is *greater* than 0 **and** also if the contents at *index* **0** starts with the character `#` ( *because its a header / `heading 1`* ). This means that the header is <span style="color: lime;">present</span>!
+Well, remember that we converted all the lines in the file into a *list*. Hence, we can say that if the length of that list is *greater* than 0 **and** also if the contents at *index* **0** starts with the character `#` ( *because its a header / `heading 1`* ). This means that the header is **present**!
 
 Thus, as we have `return` in front; therefore this function can return **3** values... Yes! 3 values. Here me out...
 
@@ -116,120 +116,8 @@ Task for 20:46 - 21/11/2024 ==> Function returns `False`
 
 >It returns `None` cause there are `None`things... Please forgive me.
 
->[!INFO]
+>[!TIP]
 >Link to Python Documentation: https://docs.python.org/3/library/stdtypes.html#str.startswith
-
----
-
-# I had to use Read and Write Mode...
-
-So in most programming languages, we have different *modes* of creating, opening, writing and appending to / from a file.
-Most of the time ( *we are talking about Python here* ), I will either use the:
-
-- `x` $\Rightarrow$ Create a File
-- `r` $\Rightarrow$ Read a File
-- `w` $\Rightarrow$ Write to a File
-- `a` $\Rightarrow$ Append to a File
-
-But we also have others like `x+`, `a+` and [more](https://docs.python.org/3/library/functions.html#open)
-
-I wanted to use the `a+` mode to check off tasks. Again, what do I mean by "*check off*"; look below $\downarrow$:
-
-```md
-- [ ] Task y --> Active Task
-- [x] Task y --> Completed / Checked-Off Task
-```
-
-Basically, the `a+` mode allow one to *append* **and** also *read* from that file. But I had issues.
-
-## Nevertheless
-
-I learned something kinda weird and awesome about this `a+` mode.
-
-So, when you open a file in **write** $\Rightarrow$ `w` mode. The "*cursor*" is placed at the top of the file. Hence, if you write something, close and then re-open to **write** to the file again. All previous contents will be lost even if it has been saved!
-
-While in our little **append** $\Rightarrow$ `a` mode. We don't have the problem of our contents in the file being over-written.
-This is because the "*cursor*" is placed at the bottom of the file. Hence, we can continue "*append*" safely without our data/contents being lost.
-
-So let's say that you have this text file below:
-
-<p align="center"><code>text.txt</code></p>
-
-```console
-The quick brown fox jumps over the lazy dog!
-```
-
-Let's now go ahead and **read** this file with the `a+` mode!
-
-```python
-import os
-
-def main():
-    # using `a+` mode to read the file
-    with open(os.path.expanduser("~/Desktop/test.txt"), "a+") as file:
-        # place the contents of file in list
-        contents = file.readlines()
-
-        # output the contents
-        print(contents)
-
-
-if __name__ == '__main__':
-    main()
-```
-
-Well, you would expect our list to have something like:
-
-```console
-'The quick brown fox jumps over the lazy dog!\n'
-```
-
-But our **true** output is:
-
-```console
-[]
-```
-
->Well, Nothing!
-
-### The Reason
-
-So, from what I said earlier, different *mode* places the *cursor* or more technically the **pointer** at different spot in the file.
-Hence, this is why a file get over-written when we use the `w` mode.
-
-But, you should be saying well, the `a+`'s read mode is fucked up. No! its not, we need to simply place the cursor / pointer at the top of the file. We do this with the `.seek()` method.
-
-```python
-import os
-
-def main():
-    # using `a+` mode to read the file
-    with open(os.path.expanduser("~/Desktop/test.txt"), "a+") as file:
-        # place the pointer / cursor at the top of the file
-        file.seek(0)
-
-        # place the contents of file in list
-        contents = file.readlines()
-
-        # output the contents
-        print(contents)
-
-
-if __name__ == '__main__':
-    main()
-```
-
-Now, our output will be correct:
-
-```console
-['The quick brown fox jumps over the lazy dog!\n']
-```
-
->[!NOTE]
->I don't really remember why I stopped using the `a+` mode.
->But I think because it was going to be much more annoying and complicated for nothing. Hence, this is why I used the `r` and `w` modes.
->
->Then again, it accomplishes my tasks of "*checking-off*" our... *tasks*!
 
 ---
 
